@@ -1,12 +1,11 @@
 import express from 'express';
 const { readFileSync } = require('fs');
-import { City, CitySuggestion, Suggestions, Location } from './types';
+import { City, Suggestions, Location } from './types';
 
 class App {
 
     private readonly PORT = 3000;
     private readonly MAX_SUGGESTIONS = 20;
-    private readonly MAX_DISTANCE = -1; // -1 means no limit
     private readonly FILE_CITYS = '../data/cities_canada-usa.json';
 
     // weights for score calculation
