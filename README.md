@@ -1,6 +1,9 @@
 # Coveo Backend Coding Challenge
 (inspired by https://github.com/busbud/coding-challenge-backend-c)
 
+## Solution 
+[Click here to see the solution](./Solution.md)
+
 ## Requirements
 
 Design a REST API endpoint that provides auto-complete suggestions for large cities.
